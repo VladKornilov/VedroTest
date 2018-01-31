@@ -18,7 +18,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
-        app:headerLayout="@layout/nv_header_hamburger"
+        app:headerLayout="@layout/nav_header_hamburger"
         app:menu="@menu/activity_hamburger_drawer" />
 
 
