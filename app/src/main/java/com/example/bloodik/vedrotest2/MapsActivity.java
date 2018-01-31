@@ -62,9 +62,9 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        LatLng spb = new LatLng(59.57, 30.19);
+        LatLng spb = new LatLng(40.71427, -74.00597);
 
-        mMap.addMarker(new MarkerOptions().position(spb).title("Питер"));
+        mMap.addMarker(new MarkerOptions().position(spb).title("Ню-ёрк"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(spb));
 
     }
