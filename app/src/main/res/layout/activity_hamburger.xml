@@ -19,7 +19,9 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
-        app:headerLayout="@layout/nav_header_hamburger"
-        app:menu="@menu/activity_hamburger_drawer" />
+        app:headerLayout="@layout/header_hamburger"
+        app:menu="@menu/activity_hamburger_drawer"
+        android:background="@color/colorPrimary"
+        />
 
 </android.support.v4.widget.DrawerLayout>
