@@ -24,10 +24,9 @@
             android:id="@+id/contacts"
             android:icon="@drawable/ic_menu_manage"
             android:title="Контакты" />
+        <item
+            android:id="@+id/exit"
+            android:title="Выход" />
     </group>
-
-    <TextView>
-        @a
-    </TextView>
 
 </menu>
